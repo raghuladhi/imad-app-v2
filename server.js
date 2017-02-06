@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 
 app.get('/subpage1',function (req, res)
 {
-    res.sendFile(path.join(__dirname, 'ui', 'subpage.html'));
+    res.sendFile(path.join(__dirname, 'ui', 'subpage1.html'));
 });
 app.get('/subpage2',function (req, res)
 {
