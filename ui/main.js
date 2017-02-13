@@ -4,5 +4,5 @@ element.innerHTML="Febraury 13-2017
 var img = document.getElementById("changepos");
 img.onclick = function()
 {
-    img.style.marginleft("100px");
+    img.style.marginleft("200px");
 }
